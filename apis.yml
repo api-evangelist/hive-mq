@@ -1,7 +1,20 @@
 aid: hive-mq
-name: Hive Mq
-description: Hive Mq is a company surfaced as a portfolio company of earlybird and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: HiveMQ
+description: >-
+  HiveMQ is the real-time industrial data platform built on MQTT, developed by
+  HiveMQ GmbH (Berlin, Germany). It provides an enterprise-grade MQTT message
+  broker for reliable, scalable, and secure bidirectional data movement between
+  IoT and OT devices and enterprise IT systems. The HiveMQ platform spans the
+  self-managed HiveMQ Broker, the fully managed HiveMQ Cloud service, HiveMQ
+  Edge (a software edge gateway that bridges OT protocols such as OPC-UA and
+  Modbus to MQTT), HiveMQ Data Hub (in-broker data policy, validation, and
+  transformation), HiveMQ Pulse (distributed data intelligence), and an
+  extensible Extensions SDK for IT integrations (Kafka, security, monitoring).
+  HiveMQ fully supports MQTT 3.1.1 and MQTT 5.0 as well as MQTT Sparkplug for
+  unified namespace architectures, and offers open-source client tooling
+  including the Java hivemq-mqtt-client library and the MQTT CLI. It is used in
+  production for connected cars, manufacturing, logistics, and energy by
+  companies including BMW, Mercedes-Benz, Ford, Air France-KLM, and Unilever.
 url: https://raw.githubusercontent.com/api-evangelist/hive-mq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +22,87 @@ x-backed-by:
 - earlybird
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.hivemq.com/img/svg/hivemq-logo.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- MQTT
+- IoT
+- Industrial IoT
+- Message Broker
+- Event-Driven
+- Messaging
+- Real-Time Data
+- Edge Computing
+- Sparkplug
 apis: []
+common:
+- type: TrustCenter
+  url: security/hive-mq-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/hive-mq-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/hive-mq-domain-security.yml
+- type: Website
+  url: https://www.hivemq.com/
+- type: DeveloperPortal
+  url: https://www.hivemq.com/developers/
+- type: Documentation
+  url: https://docs.hivemq.com/
+- type: Blog
+  url: https://www.hivemq.com/blog/
+- type: Pricing
+  url: https://www.hivemq.com/pricing/
+- type: SignUp
+  url: https://console.hivemq.cloud/
+- type: Login
+  url: https://console.hivemq.cloud/
+- type: Support
+  url: https://www.hivemq.com/company/support/
+- type: GitHubOrganization
+  url: https://github.com/hivemq
+- type: TermsOfService
+  url: https://www.hivemq.com/legal/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.hivemq.com/legal/privacy-policy/
+- type: StatusPage
+  url: https://status.hivemq.cloud/
+- type: Security
+  url: https://www.hivemq.com/solutions/technology/hivemq-security/
+- type: Compliance
+  url: https://www.hivemq.com/solutions/technology/hivemq-security/
+- type: Packages
+  url: packages/hive-mq-packages.yml
+- type: SDKs
+  url: packages/hive-mq-packages.yml
+- type: CLI
+  url: cli/hive-mq-cli.yml
+- type: Lifecycle
+  url: lifecycle/hive-mq-lifecycle.yml
+- type: Conformance
+  url: conformance/hive-mq-conformance.yml
+- type: LLMsTxt
+  url: llms/hive-mq-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
